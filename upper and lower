@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	int i,upper=0,lower=0,digit,cs;
+	char s[100];
+	scanf("%s",s);
+	for(i=0;s[i]!='\0';i++)
+	{
+		if(s[i]>='a' && s[i]<='z')
+		lower++;
+		else if(s[i]>='A' && s[i]<='Z')
+		upper++;
+		else if(s[i]>='0' && s[i]<='9')
+		digit++;
+		else
+		cs++;
+	}
+	printf("lower:%d\n",lower);
+	printf("upper:%d\n",upper);
+	printf("digit:%d\n",digit);
+	return 0;
+}
