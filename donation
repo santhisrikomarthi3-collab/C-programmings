@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+    int X, Y;
+    scanf("%d%d", &X, &Y);
+    int donation_amount = Y - X;
+    printf("%d", donation_amount);
+    return 0;
+}
