@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main()
+{
+    int x, a, b;
+    int total_score;
+
+    scanf("%d%d%d", &x, &a, &b);
+
+    total_score = a * 1 + b * 2;
+
+    if (total_score >= x) {
+        printf("Qualify\n");
+    } else {
+        printf("Not Qualify\n");
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
